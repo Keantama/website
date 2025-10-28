@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Research Homepage</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      margin: 0;
+      background-color: #f8f9fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #004aad, #007bff);
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+      padding: 0.8rem;
+    }
+
+    nav a {
+      color: #004aad;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    section h2 {
+      border-left: 5px solid #004aad;
+      padding-left: 10px;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .pub-item {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #f1f1f1;
+      color: #555;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #004aad;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Researcher in Electrical Engineering | Power Electronics | Renewable Energy</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#research">Research Interests</a>
+    <a href="#publications">Publications</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a researcher passionate about electrical engineering, power electronics,
+        and renewable energy systems. My work focuses on advancing sustainable
+        energy conversion and grid integration technologies.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Power Electronics and Control Systems</li>
+        <li>Renewable Energy Integration</li>
+        <li>Smart Grids and Energy Storage</li>
+        <li>Electric Vehicle Charging Systems</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Publications</h2>
+      <div class="pub-item">
+        <strong>Title of Your Paper</strong><br />
+        <em>Author Names</em><br />
+        <span>Journal/Conference Name, Year</span><br />
+        <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+      </div>
+      <div class="pub-item">
+        <strong>Another Research Paper</strong><br />
+        <em>Author Names</em><br />
+        <span>Journal/Conference Name, Year</span><br />
+        <a href="#">[PDF]</a> | <a href="#">[DOI]</a>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>
+        <strong>Project Title</strong> — Short description of your project, its goals,
+        and what technologies or methods you used.
+      </p>
+      <p>
+        <strong>Another Project</strong> — Description of another research or engineering project.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+      <p>
+        <a href="#">Google Scholar</a> |
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> Your Name. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
