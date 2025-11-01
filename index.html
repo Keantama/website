@@ -70,11 +70,14 @@
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    .image{
-      border-radius: 50%
-      width: 200px
-      height: 250px
-    }
+.round-image {
+  width: 150px;          /* control the size */
+  height: 150px;         /* keep it square for a perfect circle */
+  border-radius: 50%;    /* makes it round */
+  object-fit: cover;     /* crops it nicely inside the circle */
+  border: 3px solid #003366;  /* optional border */
+}
+
   </style>
 </head>
 <body>
@@ -98,7 +101,7 @@
 
   <div class="center-section">
     <h2> </h2>
-    <p><img src="bot.png" alt="3d phase" class = "image"></p>
+    <p><img src="bot.png" alt="3d phase" class="round-image"></p>
   </div>
 
   <div class="right-section">
