@@ -70,3 +70,8 @@ body {
   object-fit: cover;     /* crops it nicely inside the circle */
   border: 3px solid #99ccff;  /* optional border */
 }
+
+footer{
+      text-align: center;
+      margin: 0 auto;
+}
