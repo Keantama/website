@@ -37,24 +37,25 @@ body {
     
     .grid-container {
       display: grid;
-      grid-template-columns: 33% 33% 33%;
-      width: 300;
     }
       
     /* Positioning sections manually without grid or flex */
     .left-section {
       text-align: center;
       padding: 20px;
+width:300px;
     }
 
     .center-section {
       text-align: center;
       padding: 20px;
+width:300px;
     }
 
     .right-section {
       text-align: center;
       padding: 20px;
+width:300px;
     }
 
     main {
