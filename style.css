@@ -38,6 +38,7 @@ body {
     .grid-container {
       display: grid;
       grid-template-columns: 33% 33% 33%;
+      width: 300;
     }
       
     /* Positioning sections manually without grid or flex */
